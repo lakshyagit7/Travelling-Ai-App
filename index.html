@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Travel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">AI Travel</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="landing" id="home">
+        <div class="landing-content">
+            <h1>Welcome to AI Traveling</h1>
+            <p>Your smart companion for seamless travel experiences.</p>
+            <button class="explore-btn">Get Started</button>
+        </div>
+    </div>
+
+    <div class="search-explore" id="explore">
+        <h2>Explore Destinations</h2>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for a location..." />
+            <button class="search-btn">Search</button>
+        </div>
+        <div class="recommendations">
+            <div class="card">
+                <img class="picture" src="/images/hero.jpg" alt="Location 1" />
+                <h3>Goa</h3>
+                <p>India’s beach paradise, blending stunning shores, lively nightlife, and rich culture.</p>
+            </div>
+            <div class="card">
+                <img class="picture" src="/images/agustin-diaz-gargiulo-7F65HDP0-E0-unsplash.jpg" alt="Location 2" />
+                <h3>Berlin</h3>
+                <p>Berlin is a dynamic city in Germany, known for its rich history, vibrant culture, and modern architecture.</p>
+            </div>
+            <div class="card">
+                <img class="picture" src="/images/pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg" alt="Location 3" />
+                <h3>Maldives</h3>
+                <p>Maldives is a tropical paradise in the Indian Ocean, famous for its crystal-clear waters, luxurious resorts, and stunning coral reefs.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-us" id="about">
+        <div class="about-image">
+            <img class="aboutusPic" src="/images/tim-trad-CLm3pWXrS9Q-unsplash.jpg" alt="About Us" />
+        </div>
+        <div class="about-text">
+            <h2>About Us</h2>
+            <p>We are a dedicated team passionate about revolutionizing the way people travel. Our AI-driven platform ensures personalized travel experiences, offering suggestions tailored to your preferences and real-time updates.</p>
+            <p>Join us on this journey to make traveling smarter, easier, and more enjoyable.</p>
+        </div>
+    </div>
+
+    <div class="contact-form" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your name" />
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email" />
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your message"></textarea>
+            </div>
+            <button class="submit-btn">Send Message</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
